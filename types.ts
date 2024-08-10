@@ -34,3 +34,6 @@ console.log(common.name);
 console.log(common.age);
 console.log(common.city);
 console.log(common.country);
+
+type TypeConfig = [number, string, boolean];
+const config: TypeConfig = [34, "localhost", true];
